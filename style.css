@@ -1,0 +1,255 @@
+/* navbar */
+
+.navbar{
+    position: relative;
+    z-index: 1;
+}
+
+.navbar-brand{
+    font-family: url(font/GothamProBold/Gotham\ Pro\ Bold.ttf/.navbar-brand);
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+/* Jumbotron */
+.jumbotron{
+    background-image: url(gambar/hero.jpg);
+    background-size: cover;
+    height: 700px;
+    padding-bottom: 10px;
+    text-align: center;
+    position: relative;
+}
+
+.jumbotron .display-4{
+    color: black;
+    font: url(font/gothamproregular/Gotham\ Pro\ Regular/.jumbotron);
+    font-weight: 400px;
+    font-style: normal;
+    font-size: 64px;
+    margin-top: 200px;
+}
+
+.jumbotron .lead{
+    font-size: 18px;
+    font-weight: 400px;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+}
+
+.jumbotron .btn{
+    background-color: #F8BD59;
+    color: white;
+    width: 205px;
+    text-align: center;
+}
+
+/* about */
+.section h2{
+    font-size: 48px;
+    font-family: url(font/gothamproregular/Gotham\ Pro\ Regular/.section);
+    color:black;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.about{
+    margin-top: 55px;
+    text-align: center;
+    margin-bottom: 101px;
+}
+
+.about h3{
+    font-family: url(font/gothamproregular/Gotham\ Pro\ Regular/.section);
+    font-size: 28px;
+    color: #777777;
+    font-style: normal;
+    text-align: left;
+    margin-top: -45px;
+}
+
+.about p{
+    font-size: 18px;
+    font: url(font/gothamproregular/Gotham\ Pro\ Regular/.section);
+    color: #777777;
+    font-weight: 400px;
+    margin-top: 13px;
+    text-align: justify;
+}
+
+.about img{
+    width: 378px;
+    height: 378px;
+    margin-top: 10px;
+}
+
+/* services */
+
+.services{
+    background-color: #F5F5F5;
+}
+
+.services h3{
+    font-family: url(font/gothamproregular/Gotham\ Pro\ Regular/.services);
+    font-weight: normal;
+    color: black;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.services p{
+    font-family: url(font/gothamproregular/Gotham\ Pro\ Regular/.services);
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    letter-spacing: 0.065em;
+    color: #8B8989;
+    
+}
+
+/* info */
+
+.info img{
+    width: 381px;
+    height: 381px;
+}
+
+.info h3 {
+    margin-top: 25px;
+    font-size: 14px;
+    color: black;
+    font-weight: bolder;
+}
+
+.info p{
+    text-align: justify;
+}
+
+.info .btn{
+    background-color: #F8BD59;
+    color: white;
+    margin-bottom: 20px;
+}
+
+.info .info-baru{
+    color: #8B8989;
+    margin-top: -5px;
+}
+
+
+/* Dekstop Version */
+@media (min-width: 992px) {
+    .navbar-brand, .nav-link{
+        color: black !important;
+    }
+
+    .nav-link{
+        margin-right: 30px;
+    }
+
+    .navbar-nav{
+        margin: auto;
+    }
+
+    .nav-link:hover::after{
+        content: '';
+        display: block;
+        border-bottom: 3px solid #F8BD59;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    .jumbotron{
+        margin-top: -75px;
+        height: 900px;
+        text-align: left;
+    }
+
+    .jumbotron .display-4{
+        font-size: 62px;
+        margin-top: 290px;
+    }
+
+    .jumbotron .btn{
+        background-color: #F8BD59;
+        color: white;
+        width: 205px;
+        text-align: center;
+    }
+
+    .section{
+        margin-top: 40px;
+    }
+
+    .about{
+        margin-bottom: 111px;
+    }
+
+    .about h3, p{
+        text-align: left;
+    }
+
+     .about h3{
+        margin-top: 100px;
+        position: relative;
+    }
+
+    .about h3{
+        font-size: 48px;
+    }
+
+    .services h5{
+        font-family: 'Poppins', sans-serif;
+        font-family: 'Sawarabi Gothic', sans-serif;
+    }
+
+    .services p{
+        color: #8B8989, 100%;
+    }
+
+    .info p, h3{
+        text-align: left;
+    }
+
+    .info h5{
+        text-align: left;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 19px;
+        line-height: 126.7%;
+
+    }
+
+    .info img{
+        width: 481px;
+        height: 481px;
+        margin-top: 82px;
+        margin-bottom: 172px;
+    }
+
+    .info h3{
+        font-style: normal;
+        font-weight: bolder;
+        font-size: 24px;
+        line-height: 126.7%;
+        margin-top: 82px;
+    }
+
+    .info .btn{
+        font-style: normal;
+        color: #F8BD59;
+        background-color: white;
+        padding: 1px;
+    }
+
+    .info .news{
+        margin-top: -50px;
+    }
+
+    .info .info2{
+        margin-top: 42px;
+    }
+    
+}
